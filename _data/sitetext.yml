@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome!
+    title: Sono una voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.
     text: Nice To Meet You
-    button: Tell Me More
+    button: Dimmi di più
     buttonlink: "#servizi"
 
   servizi:
