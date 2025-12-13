@@ -16,10 +16,10 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
-  services:
+  servizi:
     title: "Servizi"
     text: "Lorem ipsum"
-    section: services
+    section: servizi
     list:
       - title: "La mia voce"
         desc: "Brillante e versatile per spot, <br>istituzionale per aziende,<br> professionale per segreterie telefoniche,<br>giovane e squillante per cartoni animati."
@@ -66,10 +66,10 @@ en: &DEFAULT_EN
   #   end: "Be Part <br> of Our <br> Story!"
 
   bio:
-    title: "About Us"
+    title: "Bio"
     text: "our story"
     body: "Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media all’Università Cattolica di Milano, successivamente ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media sempre all’Università Cattolica di Milano. <br><br>Grazie al Master ho avuto l’opportunità di conoscere il settore radiofonico e di acquisire competenze per lavorare nel mondo dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance e ho fondato Azzurro Etere, la mia attività di produzione audio. Allo stesso tempo iniziato a studiare per diventare una doppiatrice pubblicitaria.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e un anno del corso di teatro e doppiaggio all’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano in cui mi occupavo giornalmente di raccontare gli eventi in programma in città.<br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
-    section: about
+    section: bio
 
   audio:
     title: "Audio"
@@ -153,7 +153,7 @@ en: &DEFAULT_EN
   contatto:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
-    section: contact
+    section: contatto
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
