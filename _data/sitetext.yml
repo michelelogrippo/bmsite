@@ -158,8 +158,8 @@ en: &DEFAULT_EN
     subject: "Contact Form Submission"
     submit: "Send Message"
 
-#  footer:
-    
+  footer:
+    copyright: "Copyright &copy; Bianca Micheletti 2026"
 
 en-US:
   <<: *DEFAULT_EN
