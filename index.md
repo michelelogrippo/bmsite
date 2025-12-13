@@ -45,7 +45,7 @@ layout: page
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-12 mx-auto">
           {{ sitetext.bio.body }}
         </div>
       </div>
@@ -206,6 +206,7 @@ layout: page
   margin-left: 0;
   margin-right: 0;
   box-sizing: border-box;
+  padding-top: 0;
 }
 
 
