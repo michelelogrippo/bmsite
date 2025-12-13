@@ -2,11 +2,12 @@
 layout: default
 ---
 
+<!-- Header -->
+{% include header.html %}
+
 <!-- Render sections in order -->
 {% assign locale = site.locale | default: 'en' %}
 {% assign sitetext = site.data.sitetext[locale] %}
-
-
 
 <!-- Servizi Section -->
 {% if sitetext.servizi %}
