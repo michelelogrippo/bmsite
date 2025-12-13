@@ -11,17 +11,17 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "Servizi"
       section: services
     - title: "Portfolio"
       section: portfolio
-    - title: "About"
+    - title: "Bio"
       section: about
-    - title: "Timeline"
+    - title: "Audio"
       section: timeline
-    - title: "Team"
+    - title: "Video"
       section: team
-    - title: "Contact"
+    - title: "Contatto"
       section: contact
 en-US:
   <<: *DEFAULT_EN
