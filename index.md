@@ -1,8 +1,7 @@
 ---
 layout: page
 ---
-<!-- Header -->
-{% include header.html %}
+
 
 <!-- Render sections in order -->
 {% assign locale = site.locale | default: 'en' %}
