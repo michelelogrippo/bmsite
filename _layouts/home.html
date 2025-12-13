@@ -6,10 +6,7 @@ layout: default
 {% assign locale = site.locale | default: 'en' %}
 {% assign sitetext = site.data.sitetext[locale] %}
 
-<!-- Header -->
-{% if sitetext.header %}
-  {% include header.html %}
-{% endif %}
+
 
 <!-- Servizi Section -->
 {% if sitetext.servizi %}
