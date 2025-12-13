@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome!
     text: Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#servizi"
 
   servizi:
     title: "Servizi"
-    text: "Lorem ipsum"
+    text: "Cosa posso offrirti"
     section: servizi
     list:
       - title: "La mia voce"
@@ -67,33 +67,26 @@ en: &DEFAULT_EN
 
   bio:
     title: "Bio"
-    text: "our story"
+    text: "La mia storia"
     body: "Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media all’Università Cattolica di Milano, successivamente ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media sempre all’Università Cattolica di Milano. <br><br>Grazie al Master ho avuto l’opportunità di conoscere il settore radiofonico e di acquisire competenze per lavorare nel mondo dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance e ho fondato Azzurro Etere, la mia attività di produzione audio. Allo stesso tempo iniziato a studiare per diventare una doppiatrice pubblicitaria.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e un anno del corso di teatro e doppiaggio all’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano in cui mi occupavo giornalmente di raccontare gli eventi in programma in città.<br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
     section: bio
 
   audio:
     title: "Audio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Una selezione di progetti audio a cui ho lavorato."
     section: audio
-    closebutton: "Close Project"
+    #closebutton: "Close Project"
 
   video:
     title: "Video"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Una selezione di progetti video a cui ho prestato la mia voce."
     section: video
-    closebutton: "Close Project"      
-    videos:
-      - title: "Demo Voce 1"
-        youtube_id: "dQw4w9WgXcQ"
-        description: "Primo video demo"
-        
-      - title: "Demo Voce 2"
-        youtube_id: "jNQXAC9IVRw"
-        description: "Secondo video demo"
-        
-      - title: "Demo Voce 3"
-        youtube_id: "9bZkp7q19f0"
-        description: "Terzo video demo"      
+    #closebutton: "Close Project"      
+    playlist:
+      title: "Playlist"
+      text: "Guarda la mia playlist completa"
+      section: playlist
+      playlist_id: "PLSbzMDvk3fHP4f0awYXlcSgajCtGYOAIW"  # ID della playlist da YouTube     
 
   # clients:
   #   section: clients

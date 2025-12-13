@@ -85,7 +85,19 @@ layout: page
         <h3 class="section-subheading text-muted">{{ sitetext.video.text }}</h3>
       </div>
       <div class="row">
-        {% for video in sitetext.video.videos %}
+        <div class="col-lg-10 mx-auto">
+          <div class="playlist-container">
+            <iframe 
+              width="100%" 
+              height="500"
+              src="https://www.youtube.com/embed/videoseries?list={{ sitetext.playlist.playlist_id }}" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>      
+        <!-- {% for video in sitetext.video.videos %}
           <div class="col-md-4 col-sm-6 mb-5">
             <div class="video-item">
               <div class="video-container">
@@ -104,7 +116,7 @@ layout: page
               </div>
             </div>
           </div>
-        {% endfor %}
+        {% endfor %} -->
       </div>
     </div>
   </section>
