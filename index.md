@@ -20,7 +20,7 @@ layout: page
       </div>
       <div class="row text-center">
         {% for service in sitetext.servizi.list %}
-          <div class="col-md-4">
+          <div class="col-md-3">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas {{ service.icon }} fa-stack-1x fa-inverse"></i>
@@ -183,5 +183,23 @@ layout: page
 
 #mainNav {
     background-color: #ab40d5 !important;
+}
+
+
+#pagecontainer {
+  width: 100%;
+  max-width: none;            /* neutralizza i max-width responsive */
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 1200px) {
+    .container:not(#pagecontainer) {
+        max-width: 75rem;
+    }
 }
 </style>
