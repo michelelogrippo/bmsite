@@ -1,12 +1,12 @@
 <!-- Video Section -->
-<section class="page-section" id="{{ include.section }}">
+<section class="page-section" id="video">
   <div class="container">
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">{{ include.video.title }}</h2>
-      <h3 class="section-subheading text-muted">{{ include.video.text }}</h3>
+      <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].video.title }}</h2>
+      <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].video.text }}</h3>
     </div>
     <div class="row">
-      {% for video in include.video.videos %}
+      {% for video in site.data.sitetext[site.locale].video.videos %}
         <div class="col-md-4 col-sm-6 mb-5">
           <div class="video-item">
             <div class="video-container">
