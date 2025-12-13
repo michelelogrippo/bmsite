@@ -12,9 +12,9 @@
 en: &DEFAULT_EN
   nav:
     - title: "Servizi"
-      section: services
+      section: servizi
     - title: "Bio"
-      section: about
+      section: bio
     - title: "Audio"
       section: timeline
     - title: "Video"
