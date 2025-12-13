@@ -74,14 +74,26 @@ en: &DEFAULT_EN
   audio:
     title: "Audio"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+    section: audio
     closebutton: "Close Project"
 
   video:
     title: "Video"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"        
+    section: video
+    closebutton: "Close Project"      
+    videos:
+      - title: "Demo Voce 1"
+        youtube_id: "dQw4w9WgXcQ"
+        description: "Primo video demo"
+        
+      - title: "Demo Voce 2"
+        youtube_id: "jNQXAC9IVRw"
+        description: "Secondo video demo"
+        
+      - title: "Demo Voce 3"
+        youtube_id: "9bZkp7q19f0"
+        description: "Terzo video demo"      
 
   # clients:
   #   section: clients

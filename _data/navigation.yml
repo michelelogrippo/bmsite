@@ -18,7 +18,7 @@ en: &DEFAULT_EN
     - title: "Audio"
       section: audio
     - title: "Video"
-      section: /videos
+      section: video
     - title: "Contatto"
       section: contatto
 en-US:
