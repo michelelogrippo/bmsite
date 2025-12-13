@@ -16,11 +16,11 @@ en: &DEFAULT_EN
     - title: "Bio"
       section: bio
     - title: "Audio"
-      section: timeline
+      section: audio
     - title: "Video"
-      section: team
+      section: /videos
     - title: "Contatto"
-      section: contact
+      section: contatto
 en-US:
   <<: *DEFAULT_EN
 en-CA:
