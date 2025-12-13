@@ -133,29 +133,13 @@ layout: page
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="{{ sitetext.contatto.name }}" required="required" data-validation-required-message="{{ sitetext.contatto.name-validation }}" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="{{ sitetext.contatto.email }}" required="required" data-validation-required-message="{{ sitetext.contatto.email-validation }}" />
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" id="message" placeholder="{{ sitetext.contatto.message }}" required="required" data-validation-required-message="{{ sitetext.contatto.message-validation }}"></textarea>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-lg-12 text-center">
-              <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{ sitetext.contatto.button-text }}</button>
-            </div>
-          </form>
+        <div class="col-lg-6 mx-auto">
+          <div class="contact-box">
+            <h4>Contattami</h4>
+            <p>
+              <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -163,6 +147,36 @@ layout: page
 {% endif %}
 
 <style>
+.contact-box {
+  background-color: #ab40d5;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-box h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.contact-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}    
+
 .video-container {
   position: relative;
   width: 100%;
