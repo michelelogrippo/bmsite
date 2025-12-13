@@ -4,9 +4,11 @@
 {% if sitetext.header %}
   <header class="masthead">
     <div class="container">
-      <div class="masthead-subheading">{{ sitetext.header.text }}</div>
-      <div class="masthead-heading text-uppercase">{{ sitetext.header.title }}</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#{{ sitetext.header.buttonlink | remove: '#' }}">{{ sitetext.header.button }}</a>
+      <div class="intro-text">
+        <div class="intro-lead-in">{{ sitetext.header.text }}</div>
+        <div class="intro-heading text-uppercase">{{ sitetext.header.title }}</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#{{ sitetext.header.buttonlink | remove: '#' }}">{{ sitetext.header.button }}</a>
+      </div>
     </div>
   </header>
 {% endif %}

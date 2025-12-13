@@ -180,4 +180,8 @@ layout: page
   font-size: 0.9rem;
   margin: 0;
 }
+
+#mainNav {
+    background-color: #ab40d5 !important;
+}
 </style>
