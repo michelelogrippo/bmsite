@@ -216,6 +216,11 @@ layout: page
 
 .intro-heading {
   text-shadow: 1px 1px 0px #ccc, 2px 2px 0px #050202, 2px 7px 5px #ab40d5;
+  font-size:10vh;
+}
+
+.intro-lead-in {
+  text-shadow: 2px 3px 2px #323131;
 }
 
 

@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.
+    title: Sono una voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.
     text: Nice To Meet You
     button: Scopri di più
     buttonlink: "#servizi"
