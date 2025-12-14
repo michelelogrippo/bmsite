@@ -49,7 +49,6 @@ layout: page
           {{ sitetext.bio.body }}
         </div>
       </div>
-
       <div class="row">
         <div class="col-lg-6 mx-auto">
           <div class="contact-box">
@@ -59,7 +58,6 @@ layout: page
           </div>
         </div>
       </div>
-
     </div>
   </section>
 {% endif %}
@@ -215,6 +213,12 @@ layout: page
     color: #ffffffff;
     font-weight:bold;
 }
+
+.intro-heading {
+  text-shadow: 1px 1px 0px #ccc, 2px 2px 0px #050202, 2px 7px 5px #ab40d5;
+}
+
+
 
 
 @media (min-width: 1200px) {

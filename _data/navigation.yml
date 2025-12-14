@@ -11,12 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
+    - title: "Servizi"
+      section: servizi
     - title: "Video"
       section: video
     - title: "Audio"
       section: audio
-    - title: "Servizi"
-      section: servizi
     - title: "Bio & Contatto"
       section: bio
 
