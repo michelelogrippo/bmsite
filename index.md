@@ -216,7 +216,7 @@ layout: page
 
 .intro-heading {
   text-shadow: 1px 1px 0px #ccc, 2px 2px 0px #050202, 2px 7px 5px #ab40d5;
-  font-size:10vh;
+  font-size:4vh;
 }
 
 .intro-lead-in {
@@ -234,5 +234,12 @@ layout: page
     header.masthead {
       height:100vh;
     }
+    
+    .intro-heading {
+      font-size:10vh;
+    }
 }
+
+
+
 </style>
