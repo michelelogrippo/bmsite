@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Sono una voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.
+    
     text: Nice To Meet You
     button: Dimmi di più
     buttonlink: "#servizi"
@@ -53,9 +53,9 @@ en: &DEFAULT_EN
       playlist_id: "PLSbzMDvk3fHP4f0awYXlcSgajCtGYOAIW"  # ID della playlist da YouTube     
 
   bio:
-    title: "Bio"
-    text: "La mia storia"
-    body: "Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media all’Università Cattolica di Milano, successivamente ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media sempre all’Università Cattolica di Milano. <br><br>Grazie al Master ho avuto l’opportunità di conoscere il settore radiofonico e di acquisire competenze per lavorare nel mondo dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance e ho fondato Azzurro Etere, la mia attività di produzione audio. Allo stesso tempo iniziato a studiare per diventare una doppiatrice pubblicitaria.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e un anno del corso di teatro e doppiaggio all’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano in cui mi occupavo giornalmente di raccontare gli eventi in programma in città.<br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
+    title: "Bio & Contatto"
+    text: "Qualche informazione su di me."
+    body: "Sono una voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.<br/><br/>Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media e ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media all’Università Cattolica di Milano. <br><br>Ho lavorato nel settore radiofonico e acquisendo competenze nell'ambito dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance con la mia attività di produzione audio.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e il corso di teatro e doppiaggio presso l’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano. Mi occupavo giornalmente di raccontare gli eventi in programma in città.<br><br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
     section: bio
 
   contatto:
