@@ -58,27 +58,27 @@ en: &DEFAULT_EN
     body: "Sono una voce italiana per spot, promo, e-learning, segreterie telefoniche, documentari, audio guide, audiolibri.<br/><br/>Mi sono laureata in Linguaggi dei Media e ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media all’Università Cattolica di Milano. <br><br>Ho lavorato nel settore radiofonico e acquisendo competenze nell'ambito dell’audio per la pubblicità. Dopo aver lavorato in società di consulenze radiofoniche e produzione audio come segretaria di produzione, nel 2012 sono diventata freelance e ho avviato la mia attività di produzione audio.<br><br>Nello stesso periodo ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e in seguito il Corso di Teatro e Doppiaggio presso l’O.D.S. di Torino.<br><br>Ho avuto esperienze come conduttrice radiofonica in web radio e radio locali di Milano. Mi occupavo giornalmente di raccontare gli eventi in programma in città.<br><br>Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br/><br/>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
     section: bio
 
-  contatto:
-    title: "Contatto"
-    text: ""
-    section: contatto
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+  # contatto:
+  #   title: "Contatto"
+  #   text: ""
+  #   section: contatto
+  #   name: "Name*"
+  #   name-validation: "Please enter your name."
+  #   email: "Email*"
+  #   email-validation: "Please enter your email address."
+  #   phone: "Phone Number"
+  #   phone-validation: "Please enter your phone number."
+  #   message: "Message*"
+  #   message-validation: "Please enter a message."
+  #   subject: "Contact Form Submission"
+  #   submit: "Send Message"
 
   footer:
     copyright: "Copyright &copy; Bianca Micheletti 2026"
     social:
       - url: https://www.linkedin.com/in/biancamichelettivoice/
         icon: "fab fa-linkedin-in"   
-    legal: ""
+    legal: "Bianca Micheletti"
 
 
   # clients:
