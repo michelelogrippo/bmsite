@@ -77,7 +77,8 @@ en: &DEFAULT_EN
     copyright: "Copyright &copy; Bianca Micheletti 2026"
     social:
       - url: https://www.linkedin.com/in/biancamichelettivoice/
-        icon: "fab fa-linkedin-in"    
+        icon: "fab fa-linkedin-in"   
+    legal: ""
 
 
   # clients:
