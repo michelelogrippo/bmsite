@@ -203,7 +203,7 @@ layout: page
   text-shadow: 2px 3px 2px #323131;
 }
 header.masthead {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("#{$header-image}") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ style.header-image }}) !important;
 }
 
 
