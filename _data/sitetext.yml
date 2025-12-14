@@ -34,42 +34,6 @@ en: &DEFAULT_EN
         desc: "Microfono: RODE NT-1A<br>Computer: HP Elitebook<br> Software: Reaper<br>Proc. microfonico: TLAudio 5051 Ivory<br>Scheda audio: Focusrite Scarlett Solo<br>Cabina: Pro 25 by Puma Acoustics"
         icon: fa fa-headphones
 
-  # timeline:
-  #   title: "Timeline"
-  #   text: "Lorem ipsum timeline"
-  #   section: timeline
-  #   # left is the default
-  #   #start_align: "left"
-  #   events:
-  #     - title: "Our Humble Beginnings"
-  #       year: "2009-2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/1.jpg
-  #       alt:
-  #     - title: "An Agency is Born"
-  #       year: "March 2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/2.jpg
-  #       alt:
-  #     - title: "Jekyll Theme is created"
-  #       year: "2019"
-  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-  #       image: assets/img/timeline/3.jpg
-  #       alt: image alt text
-  #     - title: "Title"
-  #       year: "2009-2011"
-  #       desc: "Your description here, **Markdown** is fully supported."
-  #       image: assets/img/timeline/4.jpg
-  #       alt:
-  #       # you can enforce the alignment
-  #       align: right
-  #   end: "Be Part <br> of Our <br> Story!"
-
-  bio:
-    title: "Bio"
-    text: "La mia storia"
-    body: "Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media all’Università Cattolica di Milano, successivamente ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media sempre all’Università Cattolica di Milano. <br><br>Grazie al Master ho avuto l’opportunità di conoscere il settore radiofonico e di acquisire competenze per lavorare nel mondo dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance e ho fondato Azzurro Etere, la mia attività di produzione audio. Allo stesso tempo iniziato a studiare per diventare una doppiatrice pubblicitaria.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e un anno del corso di teatro e doppiaggio all’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano in cui mi occupavo giornalmente di raccontare gli eventi in programma in città.<br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
-    section: bio
 
   audio:
     title: "Audio"
@@ -87,6 +51,34 @@ en: &DEFAULT_EN
       text: "Guarda la mia playlist completa"
       section: playlist
       playlist_id: "PLSbzMDvk3fHP4f0awYXlcSgajCtGYOAIW"  # ID della playlist da YouTube     
+
+  bio:
+    title: "Bio"
+    text: "La mia storia"
+    body: "Appassionata di musica e radio, mi sono laureata in Linguaggi dei Media all’Università Cattolica di Milano, successivamente ho conseguito un Master in Comunicazione Musicale per la Discografia e i Media sempre all’Università Cattolica di Milano. <br><br>Grazie al Master ho avuto l’opportunità di conoscere il settore radiofonico e di acquisire competenze per lavorare nel mondo dell’audio per la pubblicità. Dopo aver lavorato per circa due anni in ProRadio (software e consulenze radiofoniche) e Archimede (studio di produzione audio) nel 2012 sono diventata freelance e ho fondato Azzurro Etere, la mia attività di produzione audio. Allo stesso tempo iniziato a studiare per diventare una doppiatrice pubblicitaria.<br><br>Ho frequentato il corso di dizione al Centro Teatro Attivo di Milano e un anno del corso di teatro e doppiaggio all’O.D.S. di Torino. Oggi la mia attività è principalmente incentrata sulla produzione di voice over audio per pubblicità, centri commerciali e aziende.<br><br>Tra il 2016 e il 2018 ho avuto esperienze come conduttrice radiofonica in una web radio e successivamente in una radio locale di Milano in cui mi occupavo giornalmente di raccontare gli eventi in programma in città.<br>Se stai cercando una voce particolare e riconoscibile, sono la tua scelta migliore!"
+    section: bio
+
+  contatto:
+    title: "Contatto"
+    text: ""
+    section: contatto
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    copyright: "Copyright &copy; Bianca Micheletti 2026"
+    social:
+      - url: https://www.linkedin.com/in/biancamichelettivoice/
+        icon: "fab fa-linkedin-in"    
+
 
   # clients:
   #   section: clients
@@ -143,23 +135,37 @@ en: &DEFAULT_EN
   #         - url: https://linkedin.com
   #           icon: fab fa-linkedin-in
 
-  contatto:
-    title: "Contatto"
-    text: ""
-    section: contatto
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    # timeline:
+  #   title: "Timeline"
+  #   text: "Lorem ipsum timeline"
+  #   section: timeline
+  #   # left is the default
+  #   #start_align: "left"
+  #   events:
+  #     - title: "Our Humble Beginnings"
+  #       year: "2009-2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/1.jpg
+  #       alt:
+  #     - title: "An Agency is Born"
+  #       year: "March 2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/2.jpg
+  #       alt:
+  #     - title: "Jekyll Theme is created"
+  #       year: "2019"
+  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+  #       image: assets/img/timeline/3.jpg
+  #       alt: image alt text
+  #     - title: "Title"
+  #       year: "2009-2011"
+  #       desc: "Your description here, **Markdown** is fully supported."
+  #       image: assets/img/timeline/4.jpg
+  #       alt:
+  #       # you can enforce the alignment
+  #       align: right
+  #   end: "Be Part <br> of Our <br> Story!"
 
-  footer:
-    copyright: "Copyright &copy; Bianca Micheletti 2026"
 
 en-US:
   <<: *DEFAULT_EN
