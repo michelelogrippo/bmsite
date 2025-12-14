@@ -53,8 +53,9 @@ layout: page
       <div class="row">
         <div class="col-lg-6 mx-auto">
           <div class="contact-box">
-            <h4>Contattami</h4>
+            <h4>Contattami<br/>
               <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
+            </h4>
           </div>
         </div>
       </div>
