@@ -203,7 +203,7 @@ layout: page
   text-shadow: 2px 3px 2px #323131;
 }
 header.masthead {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(255, 255, 255, 1)), url("https://biancamicheletti.it/assets/img/header2.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30), rgba(255, 255, 255, 1)), url("https://biancamicheletti.it/assets/img/header2.jpg") !important;
 }
 
 
