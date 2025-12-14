@@ -223,10 +223,19 @@ layout: page
   padding-top: 0;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffffffff;
+    font-weight:bold;
+}
+
 
 @media (min-width: 1200px) {
     .container:not(#pagecontainer) {
         max-width: 75rem;
+    }
+
+    header.masthead {
+      height:100vh;
     }
 }
 </style>
