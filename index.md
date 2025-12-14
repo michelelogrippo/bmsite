@@ -104,33 +104,33 @@ layout: page
 {% endif %}
 
 
-  <!-- Bio Section -->
-  {% if sitetext.bio %}
-    <section class="page-section bg-light" id="bio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ sitetext.bio.title }}</h2>
-            <h3 class="section-subheading text-muted">{{ sitetext.bio.text }}</h3>
-          </div>
+<!-- Bio Section -->
+{% if sitetext.bio %}
+  <section class="page-section bg-light" id="bio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ sitetext.bio.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ sitetext.bio.text }}</h3>
         </div>
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            {{ sitetext.bio.body }}
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          {{ sitetext.bio.body }}
         </div>
-        <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <div class="contact-box">
-              <h4>Contattami<br/>
-                <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
-              </h4>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <div class="contact-box">
+            <h4>Contattami<br/>
+              <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
+            </h4>
           </div>
         </div>
       </div>
-    </section>
-  {% endif %}
+    </div>
+  </section>
+{% endif %}
 
 <style>
   .contact-box {
