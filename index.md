@@ -55,26 +55,6 @@ layout: page
             </iframe>
           </div>
         </div>      
-        <!-- {% for video in sitetext.video.videos %}
-          <div class="col-md-4 col-sm-6 mb-5">
-            <div class="video-item">
-              <div class="video-container">
-                <iframe 
-                  width="100%" 
-                  height="250"
-                  src="https://www.youtube.com/embed/{{ video.youtube_id }}" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <div class="video-caption">
-                <h4>{{ video.title }}</h4>
-                <p class="text-muted">{{ video.description }}</p>
-              </div>
-            </div>
-          </div>
-        {% endfor %} -->
       </div>
     </div>
   </section>

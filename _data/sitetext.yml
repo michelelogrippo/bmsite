@@ -23,16 +23,16 @@ en: &DEFAULT_EN
     list:
       - title: "La mia voce"
         desc: "Brillante e versatile per spot, <br>istituzionale per aziende,<br> professionale per segreterie telefoniche,<br>giovane e squillante per cartoni animati."
-        icon: fa fa-microphone #find more at https://fontawesome.com/icons
+        icon: fa-microphone #find more at https://fontawesome.com/icons
       - title: "Produzioni audio"
         desc: "Nel mio home studio professionale posso registrare qualsiasi tipo di audio. All'occorrenza posso essere diretta da remoto tramite software come Source Connect e simili."
-        icon: fa fa-music
+        icon: fa-music
       - title: "E-learning"
         desc: "Grazie alla mia esperienza pluriennale nella registrazione di testi per e-learning e corsi online, sono in grado di offrire un servizio professionale e di alta qualità, che si adatta alle esigenze specifiche di ogni cliente."
-        icon: fa fa-pencil-square-o
+        icon: fa-book-open
       - title: "Strumentazione"
         desc: "Microfono: RODE NT-1A<br>Computer: HP Elitebook<br> Software: Reaper<br>Proc. microfonico: TLAudio 5051 Ivory<br>Scheda audio: Focusrite Scarlett Solo<br>Cabina: Pro 25 by Puma Acoustics"
-        icon: fa fa-headphones
+        icon: fa-headphones
 
 
   audio:
