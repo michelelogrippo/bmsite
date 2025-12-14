@@ -203,7 +203,7 @@ layout: page
   text-shadow: 2px 3px 2px #323131;
 }
 header.masthead {
-  background-image: "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/header2.jpg)";
+  background-image: "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))";
 }
 
 
@@ -212,11 +212,6 @@ header.masthead {
 @media (min-width: 1200px) {
     .container:not(#pagecontainer) {
         max-width: 75rem;
-    }
-
-    header.masthead {
-      height:100vh;
-      background-image: "url(../img/carousel1.jpg)";      
     }
     
     .intro-heading {
