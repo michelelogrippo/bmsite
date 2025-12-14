@@ -49,6 +49,18 @@ layout: page
           {{ sitetext.bio.body }}
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <div class="contact-box">
+            <h4>Contattami</h4>
+            <p>
+              <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 {% endif %}
@@ -122,29 +134,6 @@ layout: page
   </section>
 {% endif %}
 
-<!-- Contact Section -->
-{% if sitetext.contatto %}
-  <section class="page-section" id="contatto">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ sitetext.contatto.title }}</h2>
-          <h3 class="section-subheading text-muted">{{ sitetext.contatto.text }}</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="contact-box">
-            <h4>Contattami</h4>
-            <p>
-              <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-{% endif %}
 
 <style>
 .contact-box {
