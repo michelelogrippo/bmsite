@@ -102,7 +102,7 @@ layout: page
       <div class="row">
         <div class="col-lg-6 mx-auto">
           <div class="contact-box">
-            <h4>Contattami<br/>
+            <h4>Contattami:<br/>
               <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
             </h4>
           </div>
@@ -119,11 +119,11 @@ layout: page
   padding: 40px;
   border-radius: 8px;
   text-align: center;
+  margin:3vw;
 }
 
 .contact-box h4 {
   color: white;
-  margin-bottom: 20px;
   font-size: 1.5rem;
   font-weight: bold;
 }
