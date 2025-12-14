@@ -223,7 +223,7 @@ layout: page
   text-shadow: 2px 3px 2px #323131;
 }
 header.masthead {
-  background-image: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/carousel1.jpg)";
+  background-image: "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/header2.jpg)";
 }
 
 
@@ -240,7 +240,7 @@ header.masthead {
     }
     
     .intro-heading {
-      font-size:10vh;
+      font-size:10vh !important;
     }
 }
 
