@@ -34,57 +34,6 @@ layout: page
   </section>
 {% endif %}
 
-<!-- Bio Section -->
-{% if sitetext.bio %}
-  <section class="page-section bg-light" id="bio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ sitetext.bio.title }}</h2>
-          <h3 class="section-subheading text-muted">{{ sitetext.bio.text }}</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 mx-auto">
-          {{ sitetext.bio.body }}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <div class="contact-box">
-            <h4>Contattami<br/>
-              <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-{% endif %}
-
-<!-- Audio Section -->
-{% if sitetext.audio %}
-  <section class="page-section" id="audio">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">{{ sitetext.audio.title }}</h2>
-        <h3 class="section-subheading text-muted">{{ sitetext.audio.text }}</h3>
-      </div>
-      <div class="row">
-        {% for item in sitetext.audio.items %}
-          <div class="col-md-4 col-sm-6 mb-5">
-            <div class="audio-item">
-              <!-- aggiungi qui il contenuto audio -->
-              <h4>{{ item.title }}</h4>
-              <p class="text-muted">{{ item.description }}</p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-{% endif %}
-
 <!-- Video Section -->
 {% if sitetext.video %}
   <section class="page-section bg-light" id="video">
@@ -131,9 +80,60 @@ layout: page
   </section>
 {% endif %}
 
+<!-- Audio Section -->
+{% if sitetext.audio %}
+  <section class="page-section" id="audio">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">{{ sitetext.audio.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ sitetext.audio.text }}</h3>
+      </div>
+      <div class="row">
+        {% for item in sitetext.audio.items %}
+          <div class="col-md-4 col-sm-6 mb-5">
+            <div class="audio-item">
+              <!-- aggiungi qui il contenuto audio -->
+              <h4>{{ item.title }}</h4>
+              <p class="text-muted">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+
+  <!-- Bio Section -->
+  {% if sitetext.bio %}
+    <section class="page-section bg-light" id="bio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ sitetext.bio.title }}</h2>
+            <h3 class="section-subheading text-muted">{{ sitetext.bio.text }}</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            {{ sitetext.bio.body }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="contact-box">
+              <h4>Contattami<br/>
+                <a href="mailto:info@biancamicheletti.it">info@biancamicheletti.it</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
 
 <style>
-.contact-box {
+  .contact-box {
   background-color: #ab40d5;
   color: white;
   padding: 40px;
