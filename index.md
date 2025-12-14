@@ -222,6 +222,9 @@ layout: page
 .intro-lead-in {
   text-shadow: 2px 3px 2px #323131;
 }
+header.masthead {
+  background-image: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/carousel1.jpg)";
+}
 
 
 
@@ -233,6 +236,7 @@ layout: page
 
     header.masthead {
       height:100vh;
+      background-image: "url(../img/carousel1.jpg)";      
     }
     
     .intro-heading {
